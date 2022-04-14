@@ -1,0 +1,35 @@
+.form-container {
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.add-todo-list {
+    height: 30px;
+    width: 250px;
+    margin-right: 1.4rem; 
+}
+
+.add-todo-list:hover {
+    border-color: blueviolet;
+}
+
+.add-button {
+    height: 35px;   
+    width: 60px;
+    background-color:  #e7d5f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.add-button:hover {
+    background-color: #b3f0ff;
+}
+
+.add-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}

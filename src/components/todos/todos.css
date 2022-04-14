@@ -1,0 +1,37 @@
+.task-wrapper {
+    display: flex;
+    width: 45%;
+    height: 30px;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: auto;
+    border: 1.5px solid rgba(230, 204, 255);
+    background-color: none ;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.icons-container {
+    justify-content: space-around;
+}
+
+.complete-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+    color: #32e002;
+    cursor: pointer;
+}
+
+.remove-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: red;
+    cursor: pointer;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color:red;
+}

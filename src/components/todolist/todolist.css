@@ -1,0 +1,12 @@
+.list-container {
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    margin: auto;
+}
+
+.todo-tasks {
+    list-style: none;
+}

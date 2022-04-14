@@ -1,0 +1,74 @@
+.login-container > h1, .login-container> h3 {
+    text-align: center;
+} 
+
+.login-container > h1 {
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+.login-container > h3 {
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+.list-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.login-container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.name-input {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.pwd-input {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.showerror {
+    color: red;
+}
+
+.inputs {
+    text-align: center;
+    height: 30px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.inputs:hover {
+    border-bottom-color: #df9cf7;
+}
+
+.login-btn {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all .5s ease-in;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.login-btn:hover {
+    background-color:  #b3e7ff;
+    border: none;
+    border-radius: 5px;
+}
